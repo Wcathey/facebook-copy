@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up for Facebook</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./css/createAccount.css">
+    <script src="./scripts/createAccountForm.js"></script>
+    <script type="module" src="./scripts/createAccount.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="card-wrapper">
+            <div class="logo">
+            <img src = "https://static.xx.fbcdn.net/rsrc.php/y1/r/4lCu2zih0ca.svg" alt="Facebook">
+        </div>
+        <div class="account-form">
+            <div class="create-account-header">
+                <h2> Create a new account</h2>
+                <p>It's quick and easy.</p>
+            </div>
+            <div class="user-content">
+                <div class="user-cred">
+                <input type="text" id="first-name" placeholder="First name">
+                <input type="text" id="last-name" placeholder="Last name">
+                <input type="text" id="contact-info" placeholder="Mobile number or email">
+                <input type="text" id="new-password" placeholder="New password">
+                </div>
+
+                    <div class="option-label">
+                <p>Birthday<i class='bx bxs-help-circle'></i></p>
+                    </div>
+                    <div class="user-birthday">
+
+                </div>
+
+                <div class="option-label">
+                    <p>Gender<i class='bx bxs-help-circle'></i></p>
+                    </div>
+
+                <div class="user-gender">
+
+                    <div class="gender-box">
+                    <label for="female">Female</label>
+                    <input type="radio" id="female" name="gender" value="Female">
+                    </div>
+                   <div class="gender-box">
+                    <lable for="male">Male</lable>
+                    <input type="radio" id="male" name="gender" value="Male">
+                   </div>
+                   <div class="gender-box">
+                    <label for="custom">Custom</label>
+                    <input type="radio" id="custom" name="gender" value="Custom">
+                   </div>
+
+                </div>
+                </div>
+                <div class="user-disclaimer">
+                    <p>People who use our service may have uploaded your contact information to Facebook. <a href="#">Learn more.</a></p>
+                    <p>By clicking Sign Up, you agree to our <a href="#">Terms</a>, <a href="#">Privacy Policy</a> and <a href="#">Cookies Policy</a>
+                    You may receive SMS Notifications from us and can opt out any time.
+                    </p>
+                </div>
+                    <div class="sign-up-btn">
+                        <a role="button" id="sign-up">Sign Up</a>
+                    </div>
+                    <div class="existing-account">
+                        <a href="#">Already have an account?</a>
+                    </div>
+            </div>
+        </div>
+        </div>
+
+
+
+        </div>
+    </div>
+
+
+</body>
+</html>
